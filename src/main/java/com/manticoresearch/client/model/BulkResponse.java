@@ -39,7 +39,7 @@ import com.manticoresearch.client.JSON;
   BulkResponse.JSON_PROPERTY_SKIPPED_LINES
 })
 @JsonTypeName("bulkResponse")
-@jakarta.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2025-08-01T15:59:28.052447079Z[Etc/UTC]", comments = "Generator version: 7.14.0")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2025-08-01T15:59:28.052447079Z[Etc/UTC]", comments = "Generator version: 7.14.0")
 public class BulkResponse {
   public static final String JSON_PROPERTY_ITEMS = "items";
   private List<Object> items = new ArrayList<>();
@@ -76,7 +76,7 @@ public class BulkResponse {
    * List of results
    * @return items
    */
-  @jakarta.annotation.Nullable
+  @javax.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_ITEMS)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -101,7 +101,7 @@ public class BulkResponse {
    * Errors occurred during the bulk operation
    * @return errors
    */
-  @jakarta.annotation.Nullable
+  @javax.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_ERRORS)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -126,7 +126,7 @@ public class BulkResponse {
    * Error message describing an error if such occurred
    * @return error
    */
-  @jakarta.annotation.Nullable
+  @javax.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_ERROR)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -151,7 +151,7 @@ public class BulkResponse {
    * Number of the row returned in the response
    * @return currentLine
    */
-  @jakarta.annotation.Nullable
+  @javax.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_CURRENT_LINE)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -176,7 +176,7 @@ public class BulkResponse {
    * Number of rows skipped in the response
    * @return skippedLines
    */
-  @jakarta.annotation.Nullable
+  @javax.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_SKIPPED_LINES)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 

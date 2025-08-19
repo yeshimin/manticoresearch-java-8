@@ -36,7 +36,7 @@ import com.manticoresearch.client.JSON;
   JoinOn.JSON_PROPERTY_OPERATOR
 })
 @JsonTypeName("joinOn")
-@jakarta.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2025-08-01T15:59:28.052447079Z[Etc/UTC]", comments = "Generator version: 7.14.0")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2025-08-01T15:59:28.052447079Z[Etc/UTC]", comments = "Generator version: 7.14.0")
 public class JoinOn {
   public static final String JSON_PROPERTY_RIGHT = "right";
   private JoinCond right;
@@ -92,7 +92,7 @@ public class JoinOn {
    * Get right
    * @return right
    */
-  @jakarta.annotation.Nullable
+  @javax.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_RIGHT)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -117,7 +117,7 @@ public class JoinOn {
    * Get left
    * @return left
    */
-  @jakarta.annotation.Nullable
+  @javax.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_LEFT)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -142,7 +142,7 @@ public class JoinOn {
    * Get operator
    * @return operator
    */
-  @jakarta.annotation.Nullable
+  @javax.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_OPERATOR)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 

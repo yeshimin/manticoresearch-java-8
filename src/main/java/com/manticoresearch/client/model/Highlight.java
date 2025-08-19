@@ -61,7 +61,7 @@ import com.manticoresearch.client.JSON;
   Highlight.JSON_PROPERTY_USE_BOUNDARIES
 })
 @JsonTypeName("highlight")
-@jakarta.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2025-08-01T15:59:28.052447079Z[Etc/UTC]", comments = "Generator version: 7.14.0")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2025-08-01T15:59:28.052447079Z[Etc/UTC]", comments = "Generator version: 7.14.0")
 public class Highlight {
   public static final String JSON_PROPERTY_FRAGMENT_SIZE = "fragment_size";
   private Integer fragmentSize;
@@ -290,7 +290,7 @@ public class Highlight {
    * Maximum size of the text fragments in highlighted snippets per field
    * @return fragmentSize
    */
-  @jakarta.annotation.Nullable
+  @javax.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_FRAGMENT_SIZE)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -315,7 +315,7 @@ public class Highlight {
    * Maximum size of snippets per field
    * @return limit
    */
-  @jakarta.annotation.Nullable
+  @javax.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_LIMIT)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -340,7 +340,7 @@ public class Highlight {
    * Maximum number of snippets per field
    * @return limitSnippets
    */
-  @jakarta.annotation.Nullable
+  @javax.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_LIMIT_SNIPPETS)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -365,7 +365,7 @@ public class Highlight {
    * Maximum number of words per field
    * @return limitWords
    */
-  @jakarta.annotation.Nullable
+  @javax.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_LIMIT_WORDS)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -390,7 +390,7 @@ public class Highlight {
    * Total number of highlighted fragments per field
    * @return numberOfFragments
    */
-  @jakarta.annotation.Nullable
+  @javax.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_NUMBER_OF_FRAGMENTS)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -415,7 +415,7 @@ public class Highlight {
    * Text inserted after the matched term, typically used for HTML formatting
    * @return afterMatch
    */
-  @jakarta.annotation.Nullable
+  @javax.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_AFTER_MATCH)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -440,7 +440,7 @@ public class Highlight {
    * Permits an empty string to be returned as the highlighting result. Otherwise, the beginning of the original text would be returned
    * @return allowEmpty
    */
-  @jakarta.annotation.Nullable
+  @javax.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_ALLOW_EMPTY)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -465,7 +465,7 @@ public class Highlight {
    * Number of words around the match to include in the highlight
    * @return around
    */
-  @jakarta.annotation.Nullable
+  @javax.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_AROUND)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -490,7 +490,7 @@ public class Highlight {
    * Text inserted before the match, typically used for HTML formatting
    * @return beforeMatch
    */
-  @jakarta.annotation.Nullable
+  @javax.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_BEFORE_MATCH)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -515,7 +515,7 @@ public class Highlight {
    * Emits an HTML tag with the enclosing zone name before each highlighted snippet
    * @return emitZones
    */
-  @jakarta.annotation.Nullable
+  @javax.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_EMIT_ZONES)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -540,7 +540,7 @@ public class Highlight {
    * If set to &#39;html&#39;, retains HTML markup when highlighting
    * @return encoder
    */
-  @jakarta.annotation.Nullable
+  @javax.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_ENCODER)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -565,7 +565,7 @@ public class Highlight {
    * Get fields
    * @return fields
    */
-  @jakarta.annotation.Nullable
+  @javax.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_FIELDS)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -590,7 +590,7 @@ public class Highlight {
    * Ignores the length limit until the result includes all keywords
    * @return forceAllWords
    */
-  @jakarta.annotation.Nullable
+  @javax.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_FORCE_ALL_WORDS)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -615,7 +615,7 @@ public class Highlight {
    * Forces snippet generation even if limits allow highlighting the entire text
    * @return forceSnippets
    */
-  @jakarta.annotation.Nullable
+  @javax.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_FORCE_SNIPPETS)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -640,7 +640,7 @@ public class Highlight {
    * Get highlightQuery
    * @return highlightQuery
    */
-  @jakarta.annotation.Nullable
+  @javax.annotation.Nullable
   @JsonIgnore
 
   public QueryFilter getHighlightQuery() {
@@ -673,7 +673,7 @@ public class Highlight {
    * Defines the mode for handling HTML markup in the highlight
    * @return htmlStripMode
    */
-  @jakarta.annotation.Nullable
+  @javax.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_HTML_STRIP_MODE)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -698,7 +698,7 @@ public class Highlight {
    * Determines whether the &#39;limit&#39;, &#39;limit_words&#39;, and &#39;limit_snippets&#39; options operate as individual limits in each field of the document
    * @return limitsPerField
    */
-  @jakarta.annotation.Nullable
+  @javax.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_LIMITS_PER_FIELD)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -723,7 +723,7 @@ public class Highlight {
    * If set to 1, allows an empty string to be returned as a highlighting result
    * @return noMatchSize
    */
-  @jakarta.annotation.Nullable
+  @javax.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_NO_MATCH_SIZE)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -748,7 +748,7 @@ public class Highlight {
    * Sets the sorting order of highlighted snippets
    * @return order
    */
-  @jakarta.annotation.Nullable
+  @javax.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_ORDER)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -773,7 +773,7 @@ public class Highlight {
    * Text inserted before each highlighted snippet
    * @return preTags
    */
-  @jakarta.annotation.Nullable
+  @javax.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_PRE_TAGS)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -798,7 +798,7 @@ public class Highlight {
    * Text inserted after each highlighted snippet
    * @return postTags
    */
-  @jakarta.annotation.Nullable
+  @javax.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_POST_TAGS)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -823,7 +823,7 @@ public class Highlight {
    * Sets the starting value of the %SNIPPET_ID% macro
    * @return startSnippetId
    */
-  @jakarta.annotation.Nullable
+  @javax.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_START_SNIPPET_ID)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -848,7 +848,7 @@ public class Highlight {
    * Defines whether to additionally break snippets by phrase boundary characters
    * @return useBoundaries
    */
-  @jakarta.annotation.Nullable
+  @javax.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_USE_BOUNDARIES)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 

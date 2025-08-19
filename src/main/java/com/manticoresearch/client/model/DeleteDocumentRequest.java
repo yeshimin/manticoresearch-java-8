@@ -36,7 +36,7 @@ import com.manticoresearch.client.JSON;
   DeleteDocumentRequest.JSON_PROPERTY_QUERY
 })
 @JsonTypeName("deleteDocumentRequest")
-@jakarta.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2025-08-01T15:59:28.052447079Z[Etc/UTC]", comments = "Generator version: 7.14.0")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2025-08-01T15:59:28.052447079Z[Etc/UTC]", comments = "Generator version: 7.14.0")
 public class DeleteDocumentRequest {
   public static final String JSON_PROPERTY_TABLE = "table";
   private String table;
@@ -62,7 +62,7 @@ public class DeleteDocumentRequest {
    * Table name
    * @return table
    */
-  @jakarta.annotation.Nonnull
+  @javax.annotation.Nonnull
   @JsonProperty(JSON_PROPERTY_TABLE)
   @JsonInclude(value = JsonInclude.Include.ALWAYS)
 
@@ -87,7 +87,7 @@ public class DeleteDocumentRequest {
    * Cluster name
    * @return cluster
    */
-  @jakarta.annotation.Nullable
+  @javax.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_CLUSTER)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -112,7 +112,7 @@ public class DeleteDocumentRequest {
    * The ID of document for deletion
    * @return id
    */
-  @jakarta.annotation.Nullable
+  @javax.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_ID)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -137,7 +137,7 @@ public class DeleteDocumentRequest {
    * Defines the criteria to match documents for deletion
    * @return query
    */
-  @jakarta.annotation.Nullable
+  @javax.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_QUERY)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 

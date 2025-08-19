@@ -37,7 +37,7 @@ import com.manticoresearch.client.JSON;
   DeleteResponse.JSON_PROPERTY_RESULT
 })
 @JsonTypeName("deleteResponse")
-@jakarta.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2025-08-01T15:59:28.052447079Z[Etc/UTC]", comments = "Generator version: 7.14.0")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2025-08-01T15:59:28.052447079Z[Etc/UTC]", comments = "Generator version: 7.14.0")
 public class DeleteResponse {
   public static final String JSON_PROPERTY_TABLE = "table";
   private String table;
@@ -66,7 +66,7 @@ public class DeleteResponse {
    * The name of the table from which the document was deleted
    * @return table
    */
-  @jakarta.annotation.Nullable
+  @javax.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_TABLE)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -91,7 +91,7 @@ public class DeleteResponse {
    * Number of documents deleted
    * @return deleted
    */
-  @jakarta.annotation.Nullable
+  @javax.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_DELETED)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -116,7 +116,7 @@ public class DeleteResponse {
    * The ID of the deleted document. If multiple documents are deleted, the ID of the first deleted document is returned
    * @return id
    */
-  @jakarta.annotation.Nullable
+  @javax.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_ID)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -141,7 +141,7 @@ public class DeleteResponse {
    * Indicates whether any documents to be deleted were found
    * @return found
    */
-  @jakarta.annotation.Nullable
+  @javax.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_FOUND)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -166,7 +166,7 @@ public class DeleteResponse {
    * Result of the delete operation, typically &#39;deleted&#39;
    * @return result
    */
-  @jakarta.annotation.Nullable
+  @javax.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_RESULT)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 

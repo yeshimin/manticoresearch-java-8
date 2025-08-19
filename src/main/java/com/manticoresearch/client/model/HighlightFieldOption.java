@@ -37,7 +37,7 @@ import com.manticoresearch.client.JSON;
   HighlightFieldOption.JSON_PROPERTY_NUMBER_OF_FRAGMENTS
 })
 @JsonTypeName("highlightFieldOption")
-@jakarta.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2025-08-01T15:59:28.052447079Z[Etc/UTC]", comments = "Generator version: 7.14.0")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2025-08-01T15:59:28.052447079Z[Etc/UTC]", comments = "Generator version: 7.14.0")
 public class HighlightFieldOption {
   public static final String JSON_PROPERTY_FRAGMENT_SIZE = "fragment_size";
   private Integer fragmentSize;
@@ -66,7 +66,7 @@ public class HighlightFieldOption {
    * Maximum size of the text fragments in highlighted snippets per field
    * @return fragmentSize
    */
-  @jakarta.annotation.Nullable
+  @javax.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_FRAGMENT_SIZE)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -91,7 +91,7 @@ public class HighlightFieldOption {
    * Maximum size of snippets per field
    * @return limit
    */
-  @jakarta.annotation.Nullable
+  @javax.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_LIMIT)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -116,7 +116,7 @@ public class HighlightFieldOption {
    * Maximum number of snippets per field
    * @return limitSnippets
    */
-  @jakarta.annotation.Nullable
+  @javax.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_LIMIT_SNIPPETS)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -141,7 +141,7 @@ public class HighlightFieldOption {
    * Maximum number of words per field
    * @return limitWords
    */
-  @jakarta.annotation.Nullable
+  @javax.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_LIMIT_WORDS)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -166,7 +166,7 @@ public class HighlightFieldOption {
    * Total number of highlighted fragments per field
    * @return numberOfFragments
    */
-  @jakarta.annotation.Nullable
+  @javax.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_NUMBER_OF_FRAGMENTS)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 

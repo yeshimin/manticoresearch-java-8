@@ -33,7 +33,7 @@ import com.manticoresearch.client.JSON;
   ReplaceDocumentRequest.JSON_PROPERTY_DOC
 })
 @JsonTypeName("replaceDocumentRequest")
-@jakarta.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2025-08-01T15:59:28.052447079Z[Etc/UTC]", comments = "Generator version: 7.14.0")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2025-08-01T15:59:28.052447079Z[Etc/UTC]", comments = "Generator version: 7.14.0")
 public class ReplaceDocumentRequest {
   public static final String JSON_PROPERTY_DOC = "doc";
   private Object doc;
@@ -50,7 +50,7 @@ public class ReplaceDocumentRequest {
    * Object containing the new document data to replace the existing one.
    * @return doc
    */
-  @jakarta.annotation.Nonnull
+  @javax.annotation.Nonnull
   @JsonProperty(JSON_PROPERTY_DOC)
   @JsonInclude(value = JsonInclude.Include.ALWAYS)
 

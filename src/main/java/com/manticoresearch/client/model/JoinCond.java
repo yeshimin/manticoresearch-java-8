@@ -41,7 +41,7 @@ import com.manticoresearch.client.JSON;
   JoinCond.JSON_PROPERTY_TYPE
 })
 @JsonTypeName("joinCond")
-@jakarta.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2025-08-01T15:59:28.052447079Z[Etc/UTC]", comments = "Generator version: 7.14.0")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2025-08-01T15:59:28.052447079Z[Etc/UTC]", comments = "Generator version: 7.14.0")
 public class JoinCond {
   public static final String JSON_PROPERTY_FIELD = "field";
   private String field;
@@ -67,7 +67,7 @@ public class JoinCond {
    * Field to join on
    * @return field
    */
-  @jakarta.annotation.Nonnull
+  @javax.annotation.Nonnull
   @JsonProperty(JSON_PROPERTY_FIELD)
   @JsonInclude(value = JsonInclude.Include.ALWAYS)
 
@@ -92,7 +92,7 @@ public class JoinCond {
    * Joined table
    * @return table
    */
-  @jakarta.annotation.Nonnull
+  @javax.annotation.Nonnull
   @JsonProperty(JSON_PROPERTY_TABLE)
   @JsonInclude(value = JsonInclude.Include.ALWAYS)
 
@@ -117,7 +117,7 @@ public class JoinCond {
    * Get query
    * @return query
    */
-  @jakarta.annotation.Nullable
+  @javax.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_QUERY)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -142,7 +142,7 @@ public class JoinCond {
    * Get type
    * @return type
    */
-  @jakarta.annotation.Nullable
+  @javax.annotation.Nullable
   @JsonIgnore
 
   public Object getType() {

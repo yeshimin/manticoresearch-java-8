@@ -49,7 +49,7 @@ import com.manticoresearch.client.JSON;
   SearchQuery.JSON_PROPERTY_HIGHLIGHT
 })
 @JsonTypeName("searchQuery")
-@jakarta.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2025-08-01T15:59:28.052447079Z[Etc/UTC]", comments = "Generator version: 7.14.0")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2025-08-01T15:59:28.052447079Z[Etc/UTC]", comments = "Generator version: 7.14.0")
 public class SearchQuery {
   public static final String JSON_PROPERTY_QUERY_STRING = "query_string";
   private String queryString;
@@ -93,7 +93,7 @@ public class SearchQuery {
    * Filter object defining a query string
    * @return queryString
    */
-  @jakarta.annotation.Nullable
+  @javax.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_QUERY_STRING)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -118,7 +118,7 @@ public class SearchQuery {
    * Filter object defining a match keyword passed as a string or in a Match object
    * @return match
    */
-  @jakarta.annotation.Nullable
+  @javax.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_MATCH)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -143,7 +143,7 @@ public class SearchQuery {
    * Filter object defining a match phrase
    * @return matchPhrase
    */
-  @jakarta.annotation.Nullable
+  @javax.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_MATCH_PHRASE)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -168,7 +168,7 @@ public class SearchQuery {
    * Filter object to select all documents
    * @return matchAll
    */
-  @jakarta.annotation.Nullable
+  @javax.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_MATCH_ALL)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -193,7 +193,7 @@ public class SearchQuery {
    * Get bool
    * @return bool
    */
-  @jakarta.annotation.Nullable
+  @javax.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_BOOL)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -218,7 +218,7 @@ public class SearchQuery {
    * Get equals
    * @return equals
    */
-  @jakarta.annotation.Nullable
+  @javax.annotation.Nullable
   @JsonIgnore
 
   public Object getEquals() {
@@ -251,7 +251,7 @@ public class SearchQuery {
    * Filter to match a given set of attribute values.
    * @return in
    */
-  @jakarta.annotation.Nullable
+  @javax.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_IN)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -276,7 +276,7 @@ public class SearchQuery {
    * Filter to match a given range of attribute values passed in Range objects
    * @return range
    */
-  @jakarta.annotation.Nullable
+  @javax.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_RANGE)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -301,7 +301,7 @@ public class SearchQuery {
    * Get geoDistance
    * @return geoDistance
    */
-  @jakarta.annotation.Nullable
+  @javax.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_GEO_DISTANCE)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -326,7 +326,7 @@ public class SearchQuery {
    * Get highlight
    * @return highlight
    */
-  @jakarta.annotation.Nullable
+  @javax.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_HIGHLIGHT)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 

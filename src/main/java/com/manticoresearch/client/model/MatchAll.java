@@ -33,7 +33,7 @@ import com.manticoresearch.client.JSON;
   MatchAll.JSON_PROPERTY_ALL
 })
 @JsonTypeName("match_all")
-@jakarta.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2025-08-01T15:59:28.052447079Z[Etc/UTC]", comments = "Generator version: 7.14.0")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2025-08-01T15:59:28.052447079Z[Etc/UTC]", comments = "Generator version: 7.14.0")
 public class MatchAll {
   /**
    * Gets or Sets all
@@ -83,7 +83,7 @@ public class MatchAll {
    * Get all
    * @return all
    */
-  @jakarta.annotation.Nonnull
+  @javax.annotation.Nonnull
   @JsonProperty(JSON_PROPERTY_ALL)
   @JsonInclude(value = JsonInclude.Include.ALWAYS)
 

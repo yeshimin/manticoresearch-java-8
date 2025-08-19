@@ -36,7 +36,7 @@ import com.manticoresearch.client.JSON;
   SqlObjResponse.JSON_PROPERTY_TIMED_OUT
 })
 @JsonTypeName("sqlObjResponse")
-@jakarta.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2025-08-01T15:59:28.052447079Z[Etc/UTC]", comments = "Generator version: 7.14.0")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2025-08-01T15:59:28.052447079Z[Etc/UTC]", comments = "Generator version: 7.14.0")
 public class SqlObjResponse {
   public static final String JSON_PROPERTY_HITS = "hits";
   private Object hits;
@@ -59,7 +59,7 @@ public class SqlObjResponse {
    * Get hits
    * @return hits
    */
-  @jakarta.annotation.Nonnull
+  @javax.annotation.Nonnull
   @JsonProperty(JSON_PROPERTY_HITS)
   @JsonInclude(value = JsonInclude.Include.ALWAYS)
 
@@ -84,7 +84,7 @@ public class SqlObjResponse {
    * Get took
    * @return took
    */
-  @jakarta.annotation.Nullable
+  @javax.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_TOOK)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -109,7 +109,7 @@ public class SqlObjResponse {
    * Get timedOut
    * @return timedOut
    */
-  @jakarta.annotation.Nullable
+  @javax.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_TIMED_OUT)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 

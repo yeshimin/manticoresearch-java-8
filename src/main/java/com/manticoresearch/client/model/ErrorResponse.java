@@ -35,7 +35,7 @@ import com.manticoresearch.client.JSON;
   ErrorResponse.JSON_PROPERTY_STATUS
 })
 @JsonTypeName("errorResponse")
-@jakarta.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2025-08-01T15:59:28.052447079Z[Etc/UTC]", comments = "Generator version: 7.14.0")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2025-08-01T15:59:28.052447079Z[Etc/UTC]", comments = "Generator version: 7.14.0")
 public class ErrorResponse {
   public static final String JSON_PROPERTY_ERROR = "error";
   private ResponseError error;
@@ -55,7 +55,7 @@ public class ErrorResponse {
    * Get error
    * @return error
    */
-  @jakarta.annotation.Nonnull
+  @javax.annotation.Nonnull
   @JsonProperty(JSON_PROPERTY_ERROR)
   @JsonInclude(value = JsonInclude.Include.ALWAYS)
 
@@ -80,7 +80,7 @@ public class ErrorResponse {
    * HTTP status code of the error response
    * @return status
    */
-  @jakarta.annotation.Nullable
+  @javax.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_STATUS)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 

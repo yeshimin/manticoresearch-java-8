@@ -39,7 +39,7 @@ import com.manticoresearch.client.JSON;
   SearchResponseHits.JSON_PROPERTY_HITS
 })
 @JsonTypeName("searchResponse_hits")
-@jakarta.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2025-08-01T15:59:28.052447079Z[Etc/UTC]", comments = "Generator version: 7.14.0")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2025-08-01T15:59:28.052447079Z[Etc/UTC]", comments = "Generator version: 7.14.0")
 public class SearchResponseHits {
   public static final String JSON_PROPERTY_MAX_SCORE = "max_score";
   private Integer maxScore;
@@ -65,7 +65,7 @@ public class SearchResponseHits {
    * Maximum score among the matched documents
    * @return maxScore
    */
-  @jakarta.annotation.Nullable
+  @javax.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_MAX_SCORE)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -90,7 +90,7 @@ public class SearchResponseHits {
    * Total number of matched documents
    * @return total
    */
-  @jakarta.annotation.Nullable
+  @javax.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_TOTAL)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -115,7 +115,7 @@ public class SearchResponseHits {
    * Indicates whether the total number of hits is accurate or an estimate
    * @return totalRelation
    */
-  @jakarta.annotation.Nullable
+  @javax.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_TOTAL_RELATION)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -148,7 +148,7 @@ public class SearchResponseHits {
    * Array of hit objects, each representing a matched document
    * @return hits
    */
-  @jakarta.annotation.Nullable
+  @javax.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_HITS)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 

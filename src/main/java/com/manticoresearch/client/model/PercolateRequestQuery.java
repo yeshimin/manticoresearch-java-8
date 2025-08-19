@@ -33,7 +33,7 @@ import com.manticoresearch.client.JSON;
   PercolateRequestQuery.JSON_PROPERTY_PERCOLATE
 })
 @JsonTypeName("percolateRequest_query")
-@jakarta.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2025-08-01T15:59:28.052447079Z[Etc/UTC]", comments = "Generator version: 7.14.0")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2025-08-01T15:59:28.052447079Z[Etc/UTC]", comments = "Generator version: 7.14.0")
 public class PercolateRequestQuery {
   public static final String JSON_PROPERTY_PERCOLATE = "percolate";
   private Object percolate;
@@ -50,7 +50,7 @@ public class PercolateRequestQuery {
    * Object representing the document to percolate
    * @return percolate
    */
-  @jakarta.annotation.Nonnull
+  @javax.annotation.Nonnull
   @JsonProperty(JSON_PROPERTY_PERCOLATE)
   @JsonInclude(value = JsonInclude.Include.ALWAYS)
 

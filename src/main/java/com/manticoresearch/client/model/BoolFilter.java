@@ -38,7 +38,7 @@ import com.manticoresearch.client.JSON;
   BoolFilter.JSON_PROPERTY_SHOULD
 })
 @JsonTypeName("boolFilter")
-@jakarta.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2025-08-01T15:59:28.052447079Z[Etc/UTC]", comments = "Generator version: 7.14.0")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2025-08-01T15:59:28.052447079Z[Etc/UTC]", comments = "Generator version: 7.14.0")
 public class BoolFilter {
   public static final String JSON_PROPERTY_MUST = "must";
   private List<QueryFilter> must = new ArrayList<>();
@@ -69,7 +69,7 @@ public class BoolFilter {
    * Query clauses that must match for the document to be included
    * @return must
    */
-  @jakarta.annotation.Nullable
+  @javax.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_MUST)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -102,7 +102,7 @@ public class BoolFilter {
    * Query clauses that must not match for the document to be included
    * @return mustNot
    */
-  @jakarta.annotation.Nullable
+  @javax.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_MUST_NOT)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -135,7 +135,7 @@ public class BoolFilter {
    * Query clauses that should be matched, but are not required
    * @return should
    */
-  @jakarta.annotation.Nullable
+  @javax.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_SHOULD)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 

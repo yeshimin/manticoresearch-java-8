@@ -38,7 +38,7 @@ import com.manticoresearch.client.JSON;
   AggComposite.JSON_PROPERTY_SOURCES
 })
 @JsonTypeName("aggComposite")
-@jakarta.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2025-08-01T15:59:28.052447079Z[Etc/UTC]", comments = "Generator version: 7.14.0")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2025-08-01T15:59:28.052447079Z[Etc/UTC]", comments = "Generator version: 7.14.0")
 public class AggComposite {
   public static final String JSON_PROPERTY_SIZE = "size";
   private Integer size;
@@ -58,7 +58,7 @@ public class AggComposite {
    * Maximum number of composite buckets in the result
    * @return size
    */
-  @jakarta.annotation.Nullable
+  @javax.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_SIZE)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -91,7 +91,7 @@ public class AggComposite {
    * Get sources
    * @return sources
    */
-  @jakarta.annotation.Nullable
+  @javax.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_SOURCES)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 

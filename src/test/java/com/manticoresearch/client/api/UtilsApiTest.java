@@ -37,7 +37,7 @@ import java.math.BigDecimal;
  */
 public class UtilsApiTest {
 
-    private static final String BASE_PATH = "http://localhost:9408";
+    private static final String BASE_PATH = "http://localhost:9308";
     private IndexApi indexApi;
     private SearchApi searchApi;
     private UtilsApi utilsApi;

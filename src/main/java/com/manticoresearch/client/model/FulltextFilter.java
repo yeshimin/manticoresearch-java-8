@@ -36,7 +36,7 @@ import com.manticoresearch.client.JSON;
   FulltextFilter.JSON_PROPERTY_MATCH_ALL
 })
 @JsonTypeName("fulltextFilter")
-@jakarta.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2025-08-01T15:59:28.052447079Z[Etc/UTC]", comments = "Generator version: 7.14.0")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2025-08-01T15:59:28.052447079Z[Etc/UTC]", comments = "Generator version: 7.14.0")
 public class FulltextFilter {
   public static final String JSON_PROPERTY_QUERY_STRING = "query_string";
   private String queryString;
@@ -62,7 +62,7 @@ public class FulltextFilter {
    * Filter object defining a query string
    * @return queryString
    */
-  @jakarta.annotation.Nullable
+  @javax.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_QUERY_STRING)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -87,7 +87,7 @@ public class FulltextFilter {
    * Filter object defining a match keyword passed as a string or in a Match object
    * @return match
    */
-  @jakarta.annotation.Nullable
+  @javax.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_MATCH)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -112,7 +112,7 @@ public class FulltextFilter {
    * Filter object defining a match phrase
    * @return matchPhrase
    */
-  @jakarta.annotation.Nullable
+  @javax.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_MATCH_PHRASE)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -137,7 +137,7 @@ public class FulltextFilter {
    * Filter object to select all documents
    * @return matchAll
    */
-  @jakarta.annotation.Nullable
+  @javax.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_MATCH_ALL)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 

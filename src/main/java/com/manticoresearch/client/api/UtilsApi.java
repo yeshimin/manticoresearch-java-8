@@ -6,7 +6,7 @@ import com.manticoresearch.client.ApiResponse;
 import com.manticoresearch.client.Configuration;
 import com.manticoresearch.client.Pair;
 
-import jakarta.ws.rs.core.GenericType;
+import javax.ws.rs.core.GenericType;
 
 import com.manticoresearch.client.model.ErrorResponse;
 import com.manticoresearch.client.model.SqlResponse;
@@ -17,7 +17,7 @@ import java.util.LinkedHashMap;
 import java.util.List;
 import java.util.Map;
 
-@jakarta.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2025-08-01T15:59:28.052447079Z[Etc/UTC]", comments = "Generator version: 7.14.0")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2025-08-01T15:59:28.052447079Z[Etc/UTC]", comments = "Generator version: 7.14.0")
 public class UtilsApi {
   private ApiClient apiClient;
 

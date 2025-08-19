@@ -60,7 +60,7 @@ import com.manticoresearch.client.JSON;
   SearchRequest.JSON_PROPERTY_TRACK_SCORES
 })
 @JsonTypeName("searchRequest")
-@jakarta.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2025-08-01T15:59:28.052447079Z[Etc/UTC]", comments = "Generator version: 7.14.0")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2025-08-01T15:59:28.052447079Z[Etc/UTC]", comments = "Generator version: 7.14.0")
 public class SearchRequest {
   public static final String JSON_PROPERTY_TABLE = "table";
   private String table;
@@ -119,7 +119,7 @@ public class SearchRequest {
    * The table to perform the search on
    * @return table
    */
-  @jakarta.annotation.Nonnull
+  @javax.annotation.Nonnull
   @JsonProperty(JSON_PROPERTY_TABLE)
   @JsonInclude(value = JsonInclude.Include.ALWAYS)
 
@@ -144,7 +144,7 @@ public class SearchRequest {
    * Get query
    * @return query
    */
-  @jakarta.annotation.Nullable
+  @javax.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_QUERY)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -177,7 +177,7 @@ public class SearchRequest {
    * Join clause to combine search data from multiple tables
    * @return join
    */
-  @jakarta.annotation.Nullable
+  @javax.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_JOIN)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -202,7 +202,7 @@ public class SearchRequest {
    * Get highlight
    * @return highlight
    */
-  @jakarta.annotation.Nullable
+  @javax.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_HIGHLIGHT)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -227,7 +227,7 @@ public class SearchRequest {
    * Maximum number of results to return
    * @return limit
    */
-  @jakarta.annotation.Nullable
+  @javax.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_LIMIT)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -252,7 +252,7 @@ public class SearchRequest {
    * Get knn
    * @return knn
    */
-  @jakarta.annotation.Nullable
+  @javax.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_KNN)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -285,7 +285,7 @@ public class SearchRequest {
    * Defines aggregation settings for grouping results
    * @return aggs
    */
-  @jakarta.annotation.Nullable
+  @javax.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_AGGS)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -318,7 +318,7 @@ public class SearchRequest {
    * Expressions to calculate additional values for the result
    * @return expressions
    */
-  @jakarta.annotation.Nullable
+  @javax.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_EXPRESSIONS)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -343,7 +343,7 @@ public class SearchRequest {
    * Maximum number of matches allowed in the result
    * @return maxMatches
    */
-  @jakarta.annotation.Nullable
+  @javax.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_MAX_MATCHES)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -368,7 +368,7 @@ public class SearchRequest {
    * Starting point for pagination of the result
    * @return offset
    */
-  @jakarta.annotation.Nullable
+  @javax.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_OFFSET)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -393,7 +393,7 @@ public class SearchRequest {
    * Additional search options
    * @return options
    */
-  @jakarta.annotation.Nullable
+  @javax.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_OPTIONS)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -418,7 +418,7 @@ public class SearchRequest {
    * Enable or disable profiling of the search request
    * @return profile
    */
-  @jakarta.annotation.Nullable
+  @javax.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_PROFILE)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -443,7 +443,7 @@ public class SearchRequest {
    * Get sort
    * @return sort
    */
-  @jakarta.annotation.Nullable
+  @javax.annotation.Nullable
   @JsonIgnore
 
   public Object getSort() {
@@ -476,7 +476,7 @@ public class SearchRequest {
    * Get source
    * @return source
    */
-  @jakarta.annotation.Nullable
+  @javax.annotation.Nullable
   @JsonIgnore
 
   public Object getSource() {
@@ -509,7 +509,7 @@ public class SearchRequest {
    * Enable or disable result weight calculation used for sorting
    * @return trackScores
    */
-  @jakarta.annotation.Nullable
+  @javax.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_TRACK_SCORES)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 

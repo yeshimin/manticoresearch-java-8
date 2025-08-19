@@ -41,7 +41,7 @@ import com.manticoresearch.client.JSON;
   GeoDistance.JSON_PROPERTY_DISTANCE
 })
 @JsonTypeName("geoDistance")
-@jakarta.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2025-08-01T15:59:28.052447079Z[Etc/UTC]", comments = "Generator version: 7.14.0")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2025-08-01T15:59:28.052447079Z[Etc/UTC]", comments = "Generator version: 7.14.0")
 public class GeoDistance {
   public static final String JSON_PROPERTY_LOCATION_ANCHOR = "location_anchor";
   private GeoDistanceLocationAnchor locationAnchor;
@@ -102,7 +102,7 @@ public class GeoDistance {
    * Get locationAnchor
    * @return locationAnchor
    */
-  @jakarta.annotation.Nullable
+  @javax.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_LOCATION_ANCHOR)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -127,7 +127,7 @@ public class GeoDistance {
    * Field name in the document that contains location data
    * @return locationSource
    */
-  @jakarta.annotation.Nullable
+  @javax.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_LOCATION_SOURCE)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -152,7 +152,7 @@ public class GeoDistance {
    * Algorithm used to calculate the distance
    * @return distanceType
    */
-  @jakarta.annotation.Nullable
+  @javax.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_DISTANCE_TYPE)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -177,7 +177,7 @@ public class GeoDistance {
    * The distance from the anchor point to filter results by
    * @return distance
    */
-  @jakarta.annotation.Nullable
+  @javax.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_DISTANCE)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 

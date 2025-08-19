@@ -40,7 +40,7 @@ import com.manticoresearch.client.JSON;
   Join.JSON_PROPERTY_TABLE
 })
 @JsonTypeName("join")
-@jakarta.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2025-08-01T15:59:28.052447079Z[Etc/UTC]", comments = "Generator version: 7.14.0")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2025-08-01T15:59:28.052447079Z[Etc/UTC]", comments = "Generator version: 7.14.0")
 public class Join {
   /**
    * Type of the join operation
@@ -101,7 +101,7 @@ public class Join {
    * Type of the join operation
    * @return type
    */
-  @jakarta.annotation.Nonnull
+  @javax.annotation.Nonnull
   @JsonProperty(JSON_PROPERTY_TYPE)
   @JsonInclude(value = JsonInclude.Include.ALWAYS)
 
@@ -134,7 +134,7 @@ public class Join {
    * List of objects defining joined tables
    * @return on
    */
-  @jakarta.annotation.Nonnull
+  @javax.annotation.Nonnull
   @JsonProperty(JSON_PROPERTY_ON)
   @JsonInclude(value = JsonInclude.Include.ALWAYS)
 
@@ -159,7 +159,7 @@ public class Join {
    * Get query
    * @return query
    */
-  @jakarta.annotation.Nullable
+  @javax.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_QUERY)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -184,7 +184,7 @@ public class Join {
    * Basic table of the join operation
    * @return table
    */
-  @jakarta.annotation.Nonnull
+  @javax.annotation.Nonnull
   @JsonProperty(JSON_PROPERTY_TABLE)
   @JsonInclude(value = JsonInclude.Include.ALWAYS)
 

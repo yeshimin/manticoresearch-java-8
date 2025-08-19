@@ -41,7 +41,7 @@ import com.manticoresearch.client.JSON;
   Aggregation.JSON_PROPERTY_HISTOGRAM
 })
 @JsonTypeName("aggregation")
-@jakarta.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2025-08-01T15:59:28.052447079Z[Etc/UTC]", comments = "Generator version: 7.14.0")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2025-08-01T15:59:28.052447079Z[Etc/UTC]", comments = "Generator version: 7.14.0")
 public class Aggregation {
   public static final String JSON_PROPERTY_TERMS = "terms";
   private AggTerms terms;
@@ -67,7 +67,7 @@ public class Aggregation {
    * Get terms
    * @return terms
    */
-  @jakarta.annotation.Nullable
+  @javax.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_TERMS)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -100,7 +100,7 @@ public class Aggregation {
    * Get sort
    * @return sort
    */
-  @jakarta.annotation.Nullable
+  @javax.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_SORT)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -125,7 +125,7 @@ public class Aggregation {
    * Get composite
    * @return composite
    */
-  @jakarta.annotation.Nullable
+  @javax.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_COMPOSITE)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -150,7 +150,7 @@ public class Aggregation {
    * Get histogram
    * @return histogram
    */
-  @jakarta.annotation.Nullable
+  @javax.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_HISTOGRAM)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 

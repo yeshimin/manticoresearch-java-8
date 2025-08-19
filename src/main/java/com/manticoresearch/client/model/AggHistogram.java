@@ -36,7 +36,7 @@ import com.manticoresearch.client.JSON;
   AggHistogram.JSON_PROPERTY_KEYED
 })
 @JsonTypeName("aggHistogram")
-@jakarta.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2025-08-01T15:59:28.052447079Z[Etc/UTC]", comments = "Generator version: 7.14.0")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2025-08-01T15:59:28.052447079Z[Etc/UTC]", comments = "Generator version: 7.14.0")
 public class AggHistogram {
   public static final String JSON_PROPERTY_FIELD = "field";
   private String field;
@@ -62,7 +62,7 @@ public class AggHistogram {
    * Field to group by
    * @return field
    */
-  @jakarta.annotation.Nonnull
+  @javax.annotation.Nonnull
   @JsonProperty(JSON_PROPERTY_FIELD)
   @JsonInclude(value = JsonInclude.Include.ALWAYS)
 
@@ -87,7 +87,7 @@ public class AggHistogram {
    * Interval of the histogram values
    * @return interval
    */
-  @jakarta.annotation.Nonnull
+  @javax.annotation.Nonnull
   @JsonProperty(JSON_PROPERTY_INTERVAL)
   @JsonInclude(value = JsonInclude.Include.ALWAYS)
 
@@ -112,7 +112,7 @@ public class AggHistogram {
    * Offset of the histogram values. Default value is 0.
    * @return offset
    */
-  @jakarta.annotation.Nullable
+  @javax.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_OFFSET)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -137,7 +137,7 @@ public class AggHistogram {
    * Flag that defines if a search response will be a dictionary with the bucket keys. Default value is false.
    * @return keyed
    */
-  @jakarta.annotation.Nullable
+  @javax.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_KEYED)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 

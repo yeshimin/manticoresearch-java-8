@@ -42,7 +42,7 @@ import com.manticoresearch.client.JSON;
   KnnQuery.JSON_PROPERTY_FILTER
 })
 @JsonTypeName("knnQuery")
-@jakarta.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2025-08-01T15:59:28.052447079Z[Etc/UTC]", comments = "Generator version: 7.14.0")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2025-08-01T15:59:28.052447079Z[Etc/UTC]", comments = "Generator version: 7.14.0")
 public class KnnQuery {
   public static final String JSON_PROPERTY_FIELD = "field";
   private String field;
@@ -74,7 +74,7 @@ public class KnnQuery {
    * Field to perform the k-nearest neighbor search on
    * @return field
    */
-  @jakarta.annotation.Nonnull
+  @javax.annotation.Nonnull
   @JsonProperty(JSON_PROPERTY_FIELD)
   @JsonInclude(value = JsonInclude.Include.ALWAYS)
 
@@ -99,7 +99,7 @@ public class KnnQuery {
    * The number of nearest neighbors to return
    * @return k
    */
-  @jakarta.annotation.Nonnull
+  @javax.annotation.Nonnull
   @JsonProperty(JSON_PROPERTY_K)
   @JsonInclude(value = JsonInclude.Include.ALWAYS)
 
@@ -132,7 +132,7 @@ public class KnnQuery {
    * The vector used as input for the KNN search
    * @return queryVector
    */
-  @jakarta.annotation.Nullable
+  @javax.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_QUERY_VECTOR)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -157,7 +157,7 @@ public class KnnQuery {
    * The docuemnt ID used as input for the KNN search
    * @return docId
    */
-  @jakarta.annotation.Nullable
+  @javax.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_DOC_ID)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -182,7 +182,7 @@ public class KnnQuery {
    * Optional parameter controlling the accuracy of the search
    * @return ef
    */
-  @jakarta.annotation.Nullable
+  @javax.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_EF)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -207,7 +207,7 @@ public class KnnQuery {
    * Get filter
    * @return filter
    */
-  @jakarta.annotation.Nullable
+  @javax.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_FILTER)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 

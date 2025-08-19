@@ -36,7 +36,7 @@ import com.manticoresearch.client.JSON;
   Match.JSON_PROPERTY_BOOST
 })
 @JsonTypeName("_match")
-@jakarta.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2025-08-01T15:59:28.052447079Z[Etc/UTC]", comments = "Generator version: 7.14.0")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2025-08-01T15:59:28.052447079Z[Etc/UTC]", comments = "Generator version: 7.14.0")
 public class Match {
   public static final String JSON_PROPERTY_QUERY = "query";
   private String query;
@@ -94,7 +94,7 @@ public class Match {
    * Get query
    * @return query
    */
-  @jakarta.annotation.Nonnull
+  @javax.annotation.Nonnull
   @JsonProperty(JSON_PROPERTY_QUERY)
   @JsonInclude(value = JsonInclude.Include.ALWAYS)
 
@@ -119,7 +119,7 @@ public class Match {
    * Get operator
    * @return operator
    */
-  @jakarta.annotation.Nullable
+  @javax.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_OPERATOR)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -144,7 +144,7 @@ public class Match {
    * Get boost
    * @return boost
    */
-  @jakarta.annotation.Nullable
+  @javax.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_BOOST)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 

@@ -40,7 +40,7 @@ import com.manticoresearch.client.JSON;
   Range.JSON_PROPERTY_GTE
 })
 @JsonTypeName("range")
-@jakarta.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2025-08-01T15:59:28.052447079Z[Etc/UTC]", comments = "Generator version: 7.14.0")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2025-08-01T15:59:28.052447079Z[Etc/UTC]", comments = "Generator version: 7.14.0")
 public class Range {
   public static final String JSON_PROPERTY_LT = "lt";
   private JsonNullable<Object> lt = JsonNullable.<Object>undefined();
@@ -66,7 +66,7 @@ public class Range {
    * Get lt
    * @return lt
    */
-  @jakarta.annotation.Nullable
+  @javax.annotation.Nullable
   @JsonIgnore
 
   public Object getLt() {
@@ -99,7 +99,7 @@ public class Range {
    * Get lte
    * @return lte
    */
-  @jakarta.annotation.Nullable
+  @javax.annotation.Nullable
   @JsonIgnore
 
   public Object getLte() {
@@ -132,7 +132,7 @@ public class Range {
    * Get gt
    * @return gt
    */
-  @jakarta.annotation.Nullable
+  @javax.annotation.Nullable
   @JsonIgnore
 
   public Object getGt() {
@@ -165,7 +165,7 @@ public class Range {
    * Get gte
    * @return gte
    */
-  @jakarta.annotation.Nullable
+  @javax.annotation.Nullable
   @JsonIgnore
 
   public Object getGte() {
