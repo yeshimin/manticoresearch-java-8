@@ -254,7 +254,7 @@
               <plugin>
                 <groupId>org.sonatype.central</groupId>
                 <artifactId>central-publishing-maven-plugin</artifactId>
-                <version>0.3.0</version>
+                <version>0.8.0</version>
                 <extensions>true</extensions>
                 <configuration>
                   <publishingServerId>central</publishingServerId>
@@ -400,14 +400,4 @@
         <junit-version>5.10.0</junit-version>
         <spotless.version>2.21.0</spotless.version>
     </properties>
-    <distributionManagement>
-        <snapshotRepository>
-            <id>ossrh</id>
-            <url>https://oss.sonatype.org/content/repositories/snapshots</url>
-        </snapshotRepository>
-        <repository>
-            <id>ossrh</id>
-            <url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url>
-        </repository>
-    </distributionManagement>
 </project>
