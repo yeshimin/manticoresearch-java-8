@@ -3,7 +3,7 @@
 
 Manticore Search Client
 
-- API version: 8.1.0
+- API version: 8.1.1
 
 - Build date: 2025-08-01T15:59:28.052447079Z[Etc/UTC]
 
@@ -39,7 +39,7 @@ Add this dependency to your project's POM:
 <dependency>
   <groupId>com.manticoresearch</groupId>
   <artifactId>manticoresearch</artifactId>
-  <version>8.1.0</version>
+  <version>8.1.1</version>
   <scope>compile</scope>
 </dependency>
 ```
@@ -55,7 +55,7 @@ Add this dependency to your project's build file:
   }
 
   dependencies {
-     implementation "com.manticoresearch:manticoresearch:8.1.0"
+     implementation "com.manticoresearch:manticoresearch:8.1.1"
   }
 ```
 
@@ -69,7 +69,7 @@ mvn clean package
 
 Then manually install the following JARs:
 
-- `target/manticoresearch-8.1.0.jar`
+- `target/manticoresearch-8.1.1.jar`
 - `target/lib/*.jar`
 
 ## Getting Started
