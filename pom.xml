@@ -4,7 +4,7 @@
     <groupId>com.yeshimin</groupId>
     <artifactId>manticoresearch-java-8</artifactId>
     <name>manticoresearch</name>
-    <version>8.1.0</version>
+    <version>8.1.1</version>
     <url>https://github.com/manticoresoftware/manticoresearch-java</url>
     <description>Client for Manticore Search</description>
     <scm>
